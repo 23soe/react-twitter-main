@@ -32,7 +32,7 @@ export default function CommentBox({ data, post }: CommentBoxProps) {
         await updateDoc(postRef, {
           comments: arrayRemove(data),
         });
-        toast.success("댓글을 삭제했습니다");
+        toast.success("返信を削除しました。");
       } catch (e) {
         console.log(e);
       }

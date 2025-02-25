@@ -47,7 +47,7 @@ export default function MenuList() {
             onClick={async () => {
               const auth = getAuth(app);
               await signOut(auth);
-              toast.success("로그아웃 되었습니다.");
+              toast.success("ログアウトしました。");
             }}
           >
             <MdLogout />

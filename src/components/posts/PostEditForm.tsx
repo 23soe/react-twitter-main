@@ -82,7 +82,7 @@ export default function PostEditForm() {
           imageUrl: imageUrl,
         });
         navigate(`/posts/${post?.id}`);
-        toast.success("게시글을 수정했습니다.");
+        toast.success("ツイートを編集しました。");
       }
       setImageFile(null);
       setIsSubmitting(false);
@@ -114,7 +114,7 @@ export default function PostEditForm() {
       // 만약 같은 태그가 있다면 에러를 띄운다
       // 아니라면 태그를 생성해준다
       if (tags?.includes(e.target.value?.trim())) {
-        toast.error("같은 태그가 있습니다.");
+        toast.error("同じハッシュタグが既に追加されています。");
       } else {
         setTags((prev) => (prev?.length > 0 ? [...prev, hashTag] : [hashTag]));
         setHashTag("");
@@ -159,7 +159,7 @@ export default function PostEditForm() {
             className="post-form__input"
             name="hashtag"
             id="hashtag"
-            placeholder="해시태그 + 스페이스바 입력"
+            placeholder="#ハッシュタグ スペースキーで追加"
             onChange={onChangeHashTag}
             onKeyUp={handleKeyUp}
             value={hashTag}

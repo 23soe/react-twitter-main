@@ -1,7 +1,7 @@
 import { atom } from "recoil";
-export type LanguageType = "ko" | "en";
+export type LanguageType = "jp" | "en";
 
 export const languageState = atom<LanguageType>({
   key: "language",
-  default: (localStorage.getItem("language") as LanguageType) || "ko",
+  default: (localStorage.getItem("language") as LanguageType) || "jp",
 });

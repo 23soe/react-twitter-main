@@ -61,13 +61,13 @@ export default function FollowingBox({ post }: FollowingProps) {
             minute: "2-digit",
             second: "2-digit",
           }),
-          content: `${user?.email || user?.displayName}가 팔로우를 했습니다.`,
+          content: `${user?.email || user?.displayName}フォローしました！`,
           url: "#",
           isRead: false,
           uid: post?.uid,
         });
 
-        toast.success("팔로우를 했습니다.");
+        toast.success("フォローしました！");
       }
     } catch (e) {
       console.log(e);
@@ -88,7 +88,7 @@ export default function FollowingBox({ post }: FollowingProps) {
           users: arrayRemove({ id: user.uid }),
         });
 
-        toast.success("팔로우를 취소했습니다.");
+        toast.success("フォローを解除しました。");
       }
     } catch (e) {
       console.log(e);

@@ -1,154 +1,154 @@
 const TRANSLATIONS = {
   // menu
   MENU_HOME: {
-    ko: "홈",
+    jp: "ホーム",
     en: "Home",
   },
   MENU_PROFILE: {
-    ko: "프로필",
+    jp: "プロフィール",
     en: "Profile",
   },
   MENU_SEARCH: {
-    ko: "검색",
+    jp: "検索",
     en: "Search",
   },
   MENU_NOTI: {
-    ko: "알림",
+    jp: "通知",
     en: "Notifications",
   },
   MENU_LOGOUT: {
-    ko: "로그아웃",
+    jp: "ログアウト",
     en: "Logout",
   },
   MENU_LOGIN: {
-    ko: "로그인",
+    jp: "ログイン",
     en: "Login",
   },
   MENU_SIGNUP: {
-    ko: "회원가입",
+    jp: "新規登録",
     en: "Signup",
   },
   // button
   BUTTON_FOLLOWING: {
-    ko: "팔로잉",
+    jp: "フォロー中",
     en: "Following",
   },
   BUTTON_FOLLOW: {
-    ko: "팔로우",
+    jp: "フォロー",
     en: "Follow",
   },
   BUTTON_EDIT: {
-    ko: "수정",
+    jp: "編集",
     en: "Edit",
   },
   BUTTON_DELETE: {
-    ko: "삭제",
+    jp: "削除",
     en: "Delete",
   },
   BUTTON_EDIT_PROFILE: {
-    ko: "프로필 수정",
+    jp: "プロフィール編集",
     en: "Edit Profile",
   },
   BUTTON_COMMENT: {
-    ko: "댓글 입력",
+    jp: "コメント",
     en: "Comment",
   },
   // post
   NO_POSTS: {
-    ko: "게시글이 없습니다",
+    jp: "ツイートがありません。",
     en: "No Posts",
   },
   POST_PLACEHOLDER: {
-    ko: "내용을 입력해주세요.",
+    jp: "いまどうしてる？",
     en: "What is happening?",
   },
   POST_HASHTAG: {
-    ko: "해시태그 + 스페이스바 입력",
+    jp: "ハッシュタグ + スペースキー",
     en: "Enter hashtags with spacebar",
   },
   POST_CHANGE_IMAGE: {
-    ko: "이미지 변경",
+    jp: "画像を変更",
     en: "Change Image",
   },
   NAME_PLACEHOLDER: {
-    ko: "이름",
+    jp: "名前",
     en: "Name",
   },
   // tabs
   TAB_FOLLOWING: {
-    ko: "팔로잉",
+    jp: "フォロー中",
     en: "Following",
   },
   TAB_ALL: {
-    ko: "전체",
+    jp: "おすすめ",
     en: "For You",
   },
   TAB_LIKES: {
-    ko: "좋아요",
+    jp: "いいね",
     en: "Likes",
   },
   TAB_MY: {
-    ko: "내가쓴 글",
+    jp: "自分のツイート",
     en: "My Tweets",
   },
   // search
   SEARCH_HASHTAGS: {
-    ko: "해시태그 검색",
+    jp: "ハッシュタグ検索",
     en: "Search Hashtags",
   },
   // profile
   PROFILE_NAME: {
-    ko: "사용자님",
+    jp: "ユーザーさん",
     en: "User",
   },
   // notification
   NO_NOTIFICATIONS: {
-    ko: "알림이 없습니다",
+    jp: "通知がありません",
     en: "No notifications",
   },
   // signin, signup
   FORM_EMAIL: {
-    ko: "이메일",
+    jp: "メールアドレス",
     en: "Email",
   },
   FORM_PASSWORD: {
-    ko: "비밀번호",
+    jp: "パスワード",
     en: "Password",
   },
   FORM_PASSWORD_CHECK: {
-    ko: "비밀번호 확인",
+    jp: "パスワード確認",
     en: "Confirm Password",
   },
   NO_ACCOUNT: {
-    ko: "계정이 없으신가요?",
+    jp: "新規登録はこちら",
     en: "No Account?",
   },
   YES_ACCOUNT: {
-    ko: "계정이 있으신가요?",
+    jp: "ログインはこちら",
     en: "Already have account?",
   },
   LOGIN_WITH_GOOGLE: {
-    ko: "Google 로그인",
+    jp: "Googleでログイン",
     en: "Continue with Google",
   },
   LOGIN_WITH_GITHUB: {
-    ko: "Github 로그인",
+    jp: "Githubでログイン",
     en: "Continue with Github",
   },
   SIGNUP_GOOGLE: {
-    ko: "Google 회원가입",
+    jp: "Googleで新規登録",
     en: "Continue with Google",
   },
   SIGNUP_GITHUB: {
-    ko: "Github 회원가입",
+    jp: "Githubで新規登録",
     en: "Continue with Github",
   },
   SIGNUP_LINK: {
-    ko: "회원가입하기",
+    jp: "新規登録",
     en: "Sign up",
   },
   SIGNIN_LINK: {
-    ko: "로그인하기",
+    jp: "ログイン",
     en: "Login",
   },
 };

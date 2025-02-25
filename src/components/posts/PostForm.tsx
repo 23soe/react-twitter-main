@@ -64,7 +64,7 @@ export default function PostForm() {
       setTags([]);
       setHashTag("");
       setContent("");
-      toast.success("게시글을 생성했습니다.");
+      toast.success("ツイートを投稿しました。");
       setImageFile(null);
       setIsSubmitting(false);
     } catch (e: any) {
@@ -95,7 +95,7 @@ export default function PostForm() {
       // 만약 같은 태그가 있다면 에러를 띄운다
       // 아니라면 태그를 생성해준다
       if (tags?.includes(e.target.value?.trim())) {
-        toast.error("같은 태그가 있습니다.");
+        toast.error("同じハッシュタグが既に追加されています。");
       } else {
         setTags((prev) => (prev?.length > 0 ? [...prev, hashTag] : [hashTag]));
         setHashTag("");

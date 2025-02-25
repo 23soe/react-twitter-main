@@ -65,7 +65,7 @@ export default function ProfileEdit() {
           photoURL: newImageUrl || "",
         })
           .then(() => {
-            toast.success("프로필이 업데이트 되었습니다.");
+            toast.success("プロフィールが更新されました！");
             navigate("/profile");
           })
           .catch((error) => {

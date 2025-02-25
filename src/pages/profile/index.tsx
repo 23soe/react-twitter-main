@@ -28,8 +28,8 @@ export default function ProfilePage() {
   const t = useTranslation();
 
   const onClickLanguage = () => {
-    setLanguage(language === "ko" ? "en" : "ko");
-    localStorage.setItem("language", language === "ko" ? "en" : "ko");
+    setLanguage(language === "jp" ? "en" : "jp");
+    localStorage.setItem("language", language === "jp" ? "en" : "jp");
   };
 
   const { user } = useContext(AuthContext);
@@ -91,7 +91,7 @@ export default function ProfilePage() {
               className="profile__btn--language"
               onClick={onClickLanguage}
             >
-              {language === "ko" ? "한국어" : "English"}
+              {language === "jp" ? "日本語" : "English"}
             </button>
           </div>
         </div>

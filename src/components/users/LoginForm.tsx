@@ -24,7 +24,7 @@ export default function LoginForm() {
       const auth = getAuth(app);
       await signInWithEmailAndPassword(auth, email, password);
       navigate("/");
-      toast.success("성공적으로 로그인이 되었습니다.");
+      toast.success("ログインしました！");
     } catch (error: any) {
       toast.error(error?.code);
     }
@@ -41,7 +41,7 @@ export default function LoginForm() {
         /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
       if (!value?.match(validRegex)) {
-        setError("이메일 형식이 올바르지 않습니다.");
+        setError("有効なメールアドレスを入力してください。");
       } else {
         setError("");
       }
@@ -51,7 +51,7 @@ export default function LoginForm() {
       setPassword(value);
 
       if (value?.length < 8) {
-        setError("비밀번호는 8자리 이상 입력해주세요");
+        setError("パスワードは8文字以上に設定して下さい。");
       } else {
         setError("");
       }
@@ -80,7 +80,7 @@ export default function LoginForm() {
     )
       .then((result) => {
         console.log(result);
-        toast.success("로그인 되었습니다.");
+        toast.success("ログインしました！");
       })
       .catch((error) => {
         console.log(error);

@@ -58,11 +58,11 @@ export default function CommentForm({ post }: CommentFormProps) {
           uid: post?.uid,
           isRead: false,
           url: `/posts/${post?.id}`,
-          content: `"${truncate(post?.content)}" 글에 댓글이 작성되었습니다.`,
+          content: `"${truncate(post?.content)}" ツイートに新しい返信があります！`,
         });
       }
 
-      toast.success("댓글을 생성했습니다.");
+      toast.success("返信を投稿しました。");
       setComment("");
 
       try {
