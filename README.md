@@ -1,7 +1,7 @@
 # React Twitter
 
 - ReactとFirebaseを利用したリアルタイムTwitterプロジェクトです
-Hosting URL: [https://react-twitter-app-da482.web.app](https://react-twitter-app-da482.web.app/)
+- Hosting URL: [https://react-twitter-app-da482.web.app](https://react-twitter-app-da482.web.app/)
 
 
 # プロジェクトのセットの説明
